@@ -1694,14 +1694,14 @@ Linker script and memory map
  .debug_abbrev  0x00000c48       0x14 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
  .debug_abbrev  0x00000c5c       0xa7 C:/devkitPro/libgba/lib\libgba.a(CpuSet.o)
 
-.debug_line     0x00000000     0x4598
+.debug_line     0x00000000     0x457c
  *(.debug_line)
- .debug_line    0x00000000     0x2be8 libSave.o
- .debug_line    0x00002be8      0x77a main.o
- .debug_line    0x00003362      0x5ae C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
- .debug_line    0x00003910      0xa72 C:/devkitPro/libgba/lib\libgba.a(console.o)
- .debug_line    0x00004382       0xb2 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
- .debug_line    0x00004434      0x164 C:/devkitPro/libgba/lib\libgba.a(CpuSet.o)
+ .debug_line    0x00000000     0x2bda libSave.o
+ .debug_line    0x00002bda      0x76c main.o
+ .debug_line    0x00003346      0x5ae C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+ .debug_line    0x000038f4      0xa72 C:/devkitPro/libgba/lib\libgba.a(console.o)
+ .debug_line    0x00004366       0xb2 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .debug_line    0x00004418      0x164 C:/devkitPro/libgba/lib\libgba.a(CpuSet.o)
 
 .debug_frame    0x00000000      0x44c
  *(.debug_frame)
@@ -1711,19 +1711,19 @@ Linker script and memory map
  .debug_frame   0x0000031c      0x100 C:/devkitPro/libgba/lib\libgba.a(console.o)
  .debug_frame   0x0000041c       0x30 C:/devkitPro/libgba/lib\libgba.a(CpuSet.o)
 
-.debug_str      0x00000000     0x1287
+.debug_str      0x00000000     0x125d
  *(.debug_str)
- .debug_str     0x00000000      0x359 libSave.o
-                                0x3e5 (size before relaxing)
- .debug_str     0x00000359      0x16a main.o
-                                0x3ea (size before relaxing)
- .debug_str     0x000004c3      0x1b1 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+ .debug_str     0x00000000      0x33d libSave.o
+                                0x3c9 (size before relaxing)
+ .debug_str     0x0000033d      0x15c main.o
+                                0x3ce (size before relaxing)
+ .debug_str     0x00000499      0x1b1 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
                                 0x310 (size before relaxing)
- .debug_str     0x00000674      0xb65 C:/devkitPro/libgba/lib\libgba.a(console.o)
+ .debug_str     0x0000064a      0xb65 C:/devkitPro/libgba/lib\libgba.a(console.o)
                                 0xe18 (size before relaxing)
- .debug_str     0x000011d9       0x60 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .debug_str     0x000011af       0x60 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
                                  0xa0 (size before relaxing)
- .debug_str     0x00001239       0x4e C:/devkitPro/libgba/lib\libgba.a(CpuSet.o)
+ .debug_str     0x0000120f       0x4e C:/devkitPro/libgba/lib\libgba.a(CpuSet.o)
                                 0x18e (size before relaxing)
 
 .debug_loc      0x00000000     0x191c
@@ -1764,7 +1764,7 @@ LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.1.0/../../../../arm-
 END GROUP
 LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.1.0/thumb/crtend.o
 LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.1.0/thumb/crtn.o
-OUTPUT(C:/nin-hb/development/gba-link-cable-saver/build-directory/gba/gba_mb.elf elf32-littlearm)
+OUTPUT(C:/nin-hb/development/gba-sm/build-directory/gba/gba_mb.elf elf32-littlearm)
 LOAD linker stubs
 
 .debug_loclists

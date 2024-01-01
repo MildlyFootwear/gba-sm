@@ -1,5 +1,4 @@
-main.o: \
- C:/nin-hb/development/gba-link-cable-saver/build-directory/gba/source/main.c \
+main.o: C:/nin-hb/development/gba-sm/build-directory/gba/source/main.c \
  C:/devkitPro/libgba/include/gba.h \
  C:/devkitPro/libgba/include/gba_affine.h \
  C:/devkitPro/libgba/include/gba_base.h \
@@ -16,7 +15,7 @@ main.o: \
  C:/devkitPro/libgba/include/gba_systemcalls.h \
  C:/devkitPro/libgba/include/gba_timers.h \
  C:/devkitPro/libgba/include/gba_video.h \
- C:/nin-hb/development/gba-link-cable-saver/build-directory/gba/source/libSave.h
+ C:/nin-hb/development/gba-sm/build-directory/gba/source/libSave.h
 C:/devkitPro/libgba/include/gba.h:
 C:/devkitPro/libgba/include/gba_affine.h:
 C:/devkitPro/libgba/include/gba_base.h:
@@ -33,4 +32,4 @@ C:/devkitPro/libgba/include/gba_sprites.h:
 C:/devkitPro/libgba/include/gba_systemcalls.h:
 C:/devkitPro/libgba/include/gba_timers.h:
 C:/devkitPro/libgba/include/gba_video.h:
-C:/nin-hb/development/gba-link-cable-saver/build-directory/gba/source/libSave.h:
+C:/nin-hb/development/gba-sm/build-directory/gba/source/libSave.h:

@@ -1,5 +1,4 @@
-main.o: \
- C:/nin-hb/development/gba-link-cable-saver/build-directory/source/main.c \
+main.o: C:/nin-hb/development/gba-sm/build-directory/source/main.c \
  C:/devkitPro/libogc/include/gccore.h \
  C:/devkitPro/libogc/include/ogc/dsp.h \
  C:/devkitPro/libogc/include/gctypes.h \
@@ -56,7 +55,7 @@ main.o: \
  C:/devkitPro/libogc/include/ogc/wiilaunch.h \
  C:/devkitPro/libogc/include/fat.h \
  C:/devkitPro/libogc/include/libfatversion.h \
- C:/nin-hb/development/gba-link-cable-saver/build-directory/build/gba_mb_gba.h
+ C:/nin-hb/development/gba-sm/build-directory/build/gba_mb_gba.h
 C:/devkitPro/libogc/include/gccore.h:
 C:/devkitPro/libogc/include/ogc/dsp.h:
 C:/devkitPro/libogc/include/gctypes.h:
@@ -113,4 +112,4 @@ C:/devkitPro/libogc/include/ogc/system.h:
 C:/devkitPro/libogc/include/ogc/wiilaunch.h:
 C:/devkitPro/libogc/include/fat.h:
 C:/devkitPro/libogc/include/libfatversion.h:
-C:/nin-hb/development/gba-link-cable-saver/build-directory/build/gba_mb_gba.h:
+C:/nin-hb/development/gba-sm/build-directory/build/gba_mb_gba.h:
