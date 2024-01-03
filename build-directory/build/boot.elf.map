@@ -4841,115 +4841,115 @@ Linker script and memory map
  .rodata.endproc.str1.4
                 0x8004d7a0       0x14 main.o
  .rodata.main.str1.4
-                0x8004d7b4      0x523 main.o
-                                0x52b (size before relaxing)
+                0x8004d7b4      0x51f main.o
+                                0x527 (size before relaxing)
  .rodata.fatMount.str1.1
-                0x8004dcd7        0x2 C:/devkitPro/libogc/lib/wii\libfat.a(libfat.o)
+                0x8004dcd3        0x2 C:/devkitPro/libogc/lib/wii\libfat.a(libfat.o)
  .rodata.fatInit.str1.1
-                0x8004dcd9        0x3 C:/devkitPro/libogc/lib/wii\libfat.a(libfat.o)
+                0x8004dcd5        0x3 C:/devkitPro/libogc/lib/wii\libfat.a(libfat.o)
  .rodata.str1.1
-                0x8004dcdc        0x4 C:/devkitPro/libogc/lib/wii\libfat.a(libfat.o)
+                0x8004dcd8        0x4 C:/devkitPro/libogc/lib/wii\libfat.a(libfat.o)
  .rodata.dotab_fat
-                0x8004dce0       0x80 C:/devkitPro/libogc/lib/wii\libfat.a(libfat.o)
+                0x8004dcdc       0x80 C:/devkitPro/libogc/lib/wii\libfat.a(libfat.o)
  .rodata._FAT_directory_entryFromPath.str1.1
-                0x8004dd60        0x3 C:/devkitPro/libogc/lib/wii\libfat.a(directory.o)
+                0x8004dd5c        0x3 C:/devkitPro/libogc/lib/wii\libfat.a(directory.o)
                                   0x5 (size before relaxing)
- *fill*         0x8004dd63        0x1 
+ *fill*         0x8004dd5f        0x1 
  .rodata.ILLEGAL_LFN_CHARACTERS
-                0x8004dd64        0xa C:/devkitPro/libogc/lib/wii\libfat.a(directory.o)
- *fill*         0x8004dd6e        0x2 
+                0x8004dd60        0xa C:/devkitPro/libogc/lib/wii\libfat.a(directory.o)
+ *fill*         0x8004dd6a        0x2 
  .rodata.ILLEGAL_ALIAS_CHARACTERS
-                0x8004dd70       0x12 C:/devkitPro/libogc/lib/wii\libfat.a(directory.o)
- *fill*         0x8004dd82        0x2 
+                0x8004dd6c       0x12 C:/devkitPro/libogc/lib/wii\libfat.a(directory.o)
+ *fill*         0x8004dd7e        0x2 
  .rodata.LFN_offset_table
-                0x8004dd84       0x34 C:/devkitPro/libogc/lib/wii\libfat.a(directory.o)
+                0x8004dd80       0x34 C:/devkitPro/libogc/lib/wii\libfat.a(directory.o)
  .rodata.str1.1
-                0x8004ddb8       0x13 C:/devkitPro/libogc/lib/wii\libfat.a(disc.o)
- *fill*         0x8004ddcb        0x1 
+                0x8004ddb4       0x13 C:/devkitPro/libogc/lib/wii\libfat.a(disc.o)
+ *fill*         0x8004ddc7        0x1 
  .rodata._FAT_disc_interfaces
-                0x8004ddcc       0x28 C:/devkitPro/libogc/lib/wii\libfat.a(disc.o)
-                0x8004ddcc                _FAT_disc_interfaces
+                0x8004ddc8       0x28 C:/devkitPro/libogc/lib/wii\libfat.a(disc.o)
+                0x8004ddc8                _FAT_disc_interfaces
  .rodata.FS_TWL_SIG
-                0x8004ddf4        0x8 C:/devkitPro/libogc/lib/wii\libfat.a(partition.o)
+                0x8004ddf0        0x8 C:/devkitPro/libogc/lib/wii\libfat.a(partition.o)
  .rodata.FS_INFO_SIG2
-                0x8004ddfc        0x4 C:/devkitPro/libogc/lib/wii\libfat.a(partition.o)
+                0x8004ddf8        0x4 C:/devkitPro/libogc/lib/wii\libfat.a(partition.o)
  .rodata.FS_INFO_SIG1
-                0x8004de00        0x4 C:/devkitPro/libogc/lib/wii\libfat.a(partition.o)
+                0x8004ddfc        0x4 C:/devkitPro/libogc/lib/wii\libfat.a(partition.o)
  .rodata.FAT_SIG
-                0x8004de04        0x3 C:/devkitPro/libogc/lib/wii\libfat.a(partition.o)
- *fill*         0x8004de07        0x1 
+                0x8004de00        0x3 C:/devkitPro/libogc/lib/wii\libfat.a(partition.o)
+ *fill*         0x8004de03        0x1 
  .rodata.__console_write
-                0x8004de08       0xec C:/devkitPro/libogc/lib/wii\libogc.a(console.o)
+                0x8004de04       0xec C:/devkitPro/libogc/lib/wii\libogc.a(console.o)
  .rodata.color_table
-                0x8004def4       0x40 C:/devkitPro/libogc/lib/wii\libogc.a(console.o)
+                0x8004def0       0x40 C:/devkitPro/libogc/lib/wii\libogc.a(console.o)
  .rodata.str1.4
-                0x8004df34        0x7 C:/devkitPro/libogc/lib/wii\libogc.a(console.o)
- *fill*         0x8004df3b        0x1 
+                0x8004df30        0x7 C:/devkitPro/libogc/lib/wii\libogc.a(console.o)
+ *fill*         0x8004df37        0x1 
  .rodata.dotab_stdout
-                0x8004df3c       0x80 C:/devkitPro/libogc/lib/wii\libogc.a(console.o)
-                0x8004df3c                dotab_stdout
+                0x8004df38       0x80 C:/devkitPro/libogc/lib/wii\libogc.a(console.o)
+                0x8004df38                dotab_stdout
  .rodata.CSWTCH.167
-                0x8004dfbc       0x5c C:/devkitPro/libogc/lib/wii\libogc.a(video.o)
+                0x8004dfb8       0x5c C:/devkitPro/libogc/lib/wii\libogc.a(video.o)
  .rodata.video_timing
-                0x8004e018      0x110 C:/devkitPro/libogc/lib/wii\libogc.a(video.o)
+                0x8004e014      0x110 C:/devkitPro/libogc/lib/wii\libogc.a(video.o)
  .rodata.SYS_ResetSystem
-                0x8004e128       0x1c C:/devkitPro/libogc/lib/wii\libogc.a(system.o)
+                0x8004e124       0x1c C:/devkitPro/libogc/lib/wii\libogc.a(system.o)
  .rodata._dsp_initcode
-                0x8004e144       0x80 C:/devkitPro/libogc/lib/wii\libogc.a(system.o)
+                0x8004e140       0x80 C:/devkitPro/libogc/lib/wii\libogc.a(system.o)
  .rodata.__ios_ioctlvformat_parse
-                0x8004e1c4       0x88 C:/devkitPro/libogc/lib/wii\libogc.a(ipc.o)
+                0x8004e1c0       0x88 C:/devkitPro/libogc/lib/wii\libogc.a(ipc.o)
  .rodata._ES_seek_r.str1.4
-                0x8004e24c        0x5 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
- *fill*         0x8004e251        0x3 
+                0x8004e248        0x5 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
+ *fill*         0x8004e24d        0x3 
  .rodata._ES_close_r.str1.4
-                0x8004e254        0x3 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
- *fill*         0x8004e257        0x1 
+                0x8004e250        0x3 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
+ *fill*         0x8004e253        0x1 
  .rodata.__ES_Close.str1.4
-                0x8004e258        0x4 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
+                0x8004e254        0x4 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
  .rodata.ES_GetTitleID.str1.4
-                0x8004e25c        0x3 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
- *fill*         0x8004e25f        0x1 
+                0x8004e258        0x3 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
+ *fill*         0x8004e25b        0x1 
  .rodata.ES_GetNumTicketViews.str1.4
-                0x8004e260        0x4 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
+                0x8004e25c        0x4 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
  .rodata.ES_GetTicketViews.str1.4
-                0x8004e264        0x5 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
- *fill*         0x8004e269        0x3 
+                0x8004e260        0x5 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
+ *fill*         0x8004e265        0x3 
  .rodata.ES_GetOwnedTitles.str1.4
-                0x8004e26c        0x4 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
+                0x8004e268        0x4 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
  .rodata._ES_open_r.str1.4
-                0x8004e270        0x5 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
- *fill*         0x8004e275        0x3 
+                0x8004e26c        0x5 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
+ *fill*         0x8004e271        0x3 
  .rodata.str1.4
-                0x8004e278        0x3 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
- *fill*         0x8004e27b        0x1 
+                0x8004e274        0x3 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
+ *fill*         0x8004e277        0x1 
  .rodata.dotab_es
-                0x8004e27c       0x80 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
+                0x8004e278       0x80 C:/devkitPro/libogc/lib/wii\libogc.a(es.o)
  .rodata.__io_gcsdb
-                0x8004e2fc       0x20 C:/devkitPro/libogc/lib/wii\libogc.a(gcsd.o)
-                0x8004e2fc                __io_gcsdb
+                0x8004e2f8       0x20 C:/devkitPro/libogc/lib/wii\libogc.a(gcsd.o)
+                0x8004e2f8                __io_gcsdb
  .rodata.__io_gcsda
-                0x8004e31c       0x20 C:/devkitPro/libogc/lib/wii\libogc.a(gcsd.o)
-                0x8004e31c                __io_gcsda
+                0x8004e318       0x20 C:/devkitPro/libogc/lib/wii\libogc.a(gcsd.o)
+                0x8004e318                __io_gcsda
  .rodata.__io_wiisd
-                0x8004e33c       0x20 C:/devkitPro/libogc/lib/wii\libogc.a(wiisd.o)
-                0x8004e33c                __io_wiisd
+                0x8004e338       0x20 C:/devkitPro/libogc/lib/wii\libogc.a(wiisd.o)
+                0x8004e338                __io_wiisd
  .rodata.CONF_GetLength
-                0x8004e35c       0x20 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
+                0x8004e358       0x20 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
  .rodata.CONF_GetShutdownMode.str1.4
-                0x8004e37c        0x8 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
+                0x8004e378        0x8 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
  .rodata.CONF_GetProgressiveScan.str1.4
-                0x8004e384        0x8 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
+                0x8004e380        0x8 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
  .rodata.CONF_GetEuRGB60.str1.4
-                0x8004e38c        0x8 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
+                0x8004e388        0x8 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
  .rodata.CONF_GetCounterBias.str1.4
-                0x8004e394        0x7 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
- *fill*         0x8004e39b        0x1 
+                0x8004e390        0x7 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
+ *fill*         0x8004e397        0x1 
  .rodata.CONF_GetDisplayOffsetH.str1.4
-                0x8004e39c        0x7 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
- *fill*         0x8004e3a3        0x1 
+                0x8004e398        0x7 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
+ *fill*         0x8004e39f        0x1 
  .rodata.CONF_GetVideo.str1.4
-                0x8004e3a4       0x19 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
- *fill*         0x8004e3bd        0x3 
+                0x8004e3a0       0x19 C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
+ *fill*         0x8004e3b9        0x7 
  .rodata.__conf_txt_file
                 0x8004e3c0       0x2a C:/devkitPro/libogc/lib/wii\libogc.a(conf.o)
  *fill*         0x8004e3ea       0x16 

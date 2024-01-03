@@ -476,7 +476,8 @@ int main(int argc, char *argv[])
 					
 								printf("Press D-Pad Up/Down -/+ 1, X/Y -/+ 10, A to confirm.\n\n");
 								printf("Active save folder: %.64s\n",savefolder);
-								printf("Selected save slot: %d.\n", savenum);
+								printf("Selected save slot: %d\n", savenum);
+								
 								shosave = fopen(savename,"rb");
 								if(shosave)
 								{
